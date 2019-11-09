@@ -1,0 +1,163 @@
+table {
+  table-layout:fixed;
+  width:;
+}
+
+td {
+  width:25%;
+}
+.index table {
+  text-align:center;
+  color:white;
+  background-color:blue;
+}
+
+.value {
+  color:white;
+  text-decoration:none;
+}
+
+.value:hover {
+  color:yellow;
+  font-weight:bold;
+}
+
+.valueUsed span {
+  color:white;
+  text-decoration:line-through;
+}
+
+.qLink {
+  color:white;
+  text-decoration:none;
+}
+
+.qLink:hover {
+  color:white;
+}
+
+#question {
+  font-size:30px;
+}
+
+.button {
+  background-color:blue;
+  color:white;
+  text-decoration:none;
+  font-size:20px;
+  text-align:center;
+  border: 1px solid white;
+  margin-left:100px;
+}
+
+#login {
+  text-align:center;
+  margin-left:-142px;
+}
+
+#banner {
+padding: 0 20px;
+margin-bottom: 2em;
+}
+
+#banner img {
+  display:block;
+  margin:0 auto;
+  width:400px;
+}
+
+.login table {
+  text-align:center;
+  color:white;
+  background-color:blue;
+  width:350px;
+  height:200px;
+}
+
+.login h3 {
+  font-size:25px;
+}
+
+.login a {
+  color:white;
+}
+
+.login a:hover {
+  color:yellow;
+}
+
+#gameOver {
+  font-size:70px;
+}
+
+#help ul {
+  display: block;
+  list-style-type:disc;
+  margin-top: 1em;
+  margin-left:0;
+  margin-right:0;
+  padding-left:40px;
+}
+
+#help li {
+  padding-top:10px;
+}
+
+.correctFlash {
+  -webkit-animation-name: correct;
+  -webkit-animation-duration:900ms;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-timing-function:ease-in-out;
+}
+
+.incorrectFlash {
+  -webkit-animation-name: incorrect;
+  -webkit-animation-duration:900ms;
+  -webkit-animation-iteration-count:1;
+  -webkit-animation-timing-function:ease-in-out;
+}
+
+@-webkit-keyframes correct {
+  0% {
+    background-color:blue;
+  }
+  22% {
+    background-color:blue;
+  }
+  77% {
+    background-color:green;
+  }
+  100% {
+    background-color:green;
+  }
+}
+
+@-webkit-keyframes incorrect {
+  0% {
+    background-color:blue;
+  }
+  22% {
+    background-color:blue;
+  }
+  77% {
+    background-color:red;
+  }
+  100% {
+    background-color:red;
+  }
+}
+
+body {
+    -webkit-animation: fadeInAnimation ease 1.5s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
